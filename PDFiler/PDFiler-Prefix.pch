@@ -5,3 +5,11 @@
 #ifdef __OBJC__
     #import <Cocoa/Cocoa.h>
 #endif
+
+
+
+#if DEBUG
+#define jsmDebug(msg, ...) NSLog((@"%s %d: " msg), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)
+#else
+#define jsmDebug(msg, ...)
+#endif

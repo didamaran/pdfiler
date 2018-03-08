@@ -7,6 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E20A9C1B18084CAE00CEC150 /* mainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E20A9C1A18084CAE00CEC150 /* mainWindow.xib */; };
+		E20A9C2018084D3A00CEC150 /* mainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = E20A9C1F18084D3A00CEC150 /* mainWindowController.m */; };
+		E20A9C2318084D9B00CEC150 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E20A9C2218084D9B00CEC150 /* Quartz.framework */; };
+		E20A9C2618084E1200CEC150 /* Icons_11.png in Resources */ = {isa = PBXBuildFile; fileRef = E20A9C2418084E1200CEC150 /* Icons_11.png */; };
+		E20A9C2718084E1200CEC150 /* Icons_28.png in Resources */ = {isa = PBXBuildFile; fileRef = E20A9C2518084E1200CEC150 /* Icons_28.png */; };
+		E20A9C2A18084E2C00CEC150 /* darkView.m in Sources */ = {isa = PBXBuildFile; fileRef = E20A9C2918084E2C00CEC150 /* darkView.m */; };
+		E20A9C2D18084E7600CEC150 /* whiteView.m in Sources */ = {isa = PBXBuildFile; fileRef = E20A9C2C18084E7600CEC150 /* whiteView.m */; };
+		E20A9C3A18084F7300CEC150 /* licenseController.m in Sources */ = {isa = PBXBuildFile; fileRef = E20A9C2F18084F7200CEC150 /* licenseController.m */; };
+		E20A9C3B18084F7300CEC150 /* licenseController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E20A9C3018084F7300CEC150 /* licenseController.xib */; };
+		E20A9C3C18084F7300CEC150 /* logController.m in Sources */ = {isa = PBXBuildFile; fileRef = E20A9C3218084F7300CEC150 /* logController.m */; };
+		E20A9C3D18084F7300CEC150 /* logController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E20A9C3318084F7300CEC150 /* logController.xib */; };
+		E20A9C3E18084F7300CEC150 /* PrefController.m in Sources */ = {isa = PBXBuildFile; fileRef = E20A9C3518084F7300CEC150 /* PrefController.m */; };
+		E20A9C3F18084F7300CEC150 /* PrefController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E20A9C3618084F7300CEC150 /* PrefController.xib */; };
+		E20A9C4018084F7300CEC150 /* rulesController.m in Sources */ = {isa = PBXBuildFile; fileRef = E20A9C3818084F7300CEC150 /* rulesController.m */; };
+		E20A9C4118084F7300CEC150 /* rulesController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E20A9C3918084F7300CEC150 /* rulesController.xib */; };
+		E27119FD18070D9A00425EFF /* pdfdatei.m in Sources */ = {isa = PBXBuildFile; fileRef = E27119F718070D9A00425EFF /* pdfdatei.m */; };
+		E27119FE18070D9A00425EFF /* renamerBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = E27119F918070D9A00425EFF /* renamerBrain.m */; };
+		E27119FF18070D9A00425EFF /* settings-panel.tif in Resources */ = {isa = PBXBuildFile; fileRef = E27119FA18070D9A00425EFF /* settings-panel.tif */; };
+		E2711A0018070D9A00425EFF /* targetFolder.m in Sources */ = {isa = PBXBuildFile; fileRef = E27119FC18070D9A00425EFF /* targetFolder.m */; };
+		E2A313311807041900D3C929 /* aboutController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A313301807041900D3C929 /* aboutController.m */; };
+		E2A313331807042A00D3C929 /* aboutController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2A313321807042A00D3C929 /* aboutController.xib */; };
+		E2A313391807065300D3C929 /* bluefond_pdfiler.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E2A313351807065300D3C929 /* bluefond_pdfiler.jpg */; };
+		E2A3133A1807065300D3C929 /* bluefond.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E2A313361807065300D3C929 /* bluefond.jpg */; };
+		E2A3133B1807065300D3C929 /* tweety.png in Resources */ = {isa = PBXBuildFile; fileRef = E2A313371807065300D3C929 /* tweety.png */; };
+		E2A3133D1807069800D3C929 /* appIconW.icns in Resources */ = {isa = PBXBuildFile; fileRef = E2A3133C1807069800D3C929 /* appIconW.icns */; };
+		E2A3134118070A4100D3C929 /* updateController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A3133F18070A4100D3C929 /* updateController.m */; };
+		E2A3134218070A4100D3C929 /* updateController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2A3134018070A4100D3C929 /* updateController.xib */; };
 		E2AFAD6C1806C83200BB62DD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2AFAD6B1806C83200BB62DD /* Cocoa.framework */; };
 		E2AFAD761806C83200BB62DD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E2AFAD741806C83200BB62DD /* InfoPlist.strings */; };
 		E2AFAD781806C83200BB62DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AFAD771806C83200BB62DD /* main.m */; };
@@ -16,6 +43,46 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E20A9C1A18084CAE00CEC150 /* mainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = mainWindow.xib; sourceTree = "<group>"; };
+		E20A9C1E18084D3A00CEC150 /* mainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mainWindowController.h; sourceTree = "<group>"; };
+		E20A9C1F18084D3A00CEC150 /* mainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mainWindowController.m; sourceTree = "<group>"; };
+		E20A9C2218084D9B00CEC150 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		E20A9C2418084E1200CEC150 /* Icons_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icons_11.png; sourceTree = "<group>"; };
+		E20A9C2518084E1200CEC150 /* Icons_28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icons_28.png; sourceTree = "<group>"; };
+		E20A9C2818084E2C00CEC150 /* darkView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = darkView.h; sourceTree = "<group>"; };
+		E20A9C2918084E2C00CEC150 /* darkView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = darkView.m; sourceTree = "<group>"; };
+		E20A9C2B18084E7600CEC150 /* whiteView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = whiteView.h; sourceTree = "<group>"; };
+		E20A9C2C18084E7600CEC150 /* whiteView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = whiteView.m; sourceTree = "<group>"; };
+		E20A9C2E18084F7200CEC150 /* licenseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = licenseController.h; sourceTree = "<group>"; };
+		E20A9C2F18084F7200CEC150 /* licenseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = licenseController.m; sourceTree = "<group>"; };
+		E20A9C3018084F7300CEC150 /* licenseController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = licenseController.xib; sourceTree = "<group>"; };
+		E20A9C3118084F7300CEC150 /* logController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = logController.h; sourceTree = "<group>"; };
+		E20A9C3218084F7300CEC150 /* logController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = logController.m; sourceTree = "<group>"; };
+		E20A9C3318084F7300CEC150 /* logController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = logController.xib; sourceTree = "<group>"; };
+		E20A9C3418084F7300CEC150 /* PrefController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefController.h; sourceTree = "<group>"; };
+		E20A9C3518084F7300CEC150 /* PrefController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrefController.m; sourceTree = "<group>"; };
+		E20A9C3618084F7300CEC150 /* PrefController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PrefController.xib; sourceTree = "<group>"; };
+		E20A9C3718084F7300CEC150 /* rulesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rulesController.h; sourceTree = "<group>"; };
+		E20A9C3818084F7300CEC150 /* rulesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = rulesController.m; sourceTree = "<group>"; };
+		E20A9C3918084F7300CEC150 /* rulesController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = rulesController.xib; sourceTree = "<group>"; };
+		E27119F618070D9A00425EFF /* pdfdatei.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pdfdatei.h; sourceTree = "<group>"; };
+		E27119F718070D9A00425EFF /* pdfdatei.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pdfdatei.m; sourceTree = "<group>"; };
+		E27119F818070D9A00425EFF /* renamerBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = renamerBrain.h; sourceTree = "<group>"; };
+		E27119F918070D9A00425EFF /* renamerBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = renamerBrain.m; sourceTree = "<group>"; };
+		E27119FA18070D9A00425EFF /* settings-panel.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "settings-panel.tif"; sourceTree = "<group>"; };
+		E27119FB18070D9A00425EFF /* targetFolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = targetFolder.h; sourceTree = "<group>"; };
+		E27119FC18070D9A00425EFF /* targetFolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = targetFolder.m; sourceTree = "<group>"; };
+		E2711A0118070DB700425EFF /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		E2A3132F1807041900D3C929 /* aboutController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aboutController.h; sourceTree = "<group>"; };
+		E2A313301807041900D3C929 /* aboutController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = aboutController.m; sourceTree = "<group>"; };
+		E2A313321807042A00D3C929 /* aboutController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = aboutController.xib; sourceTree = "<group>"; };
+		E2A313351807065300D3C929 /* bluefond_pdfiler.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bluefond_pdfiler.jpg; sourceTree = "<group>"; };
+		E2A313361807065300D3C929 /* bluefond.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bluefond.jpg; sourceTree = "<group>"; };
+		E2A313371807065300D3C929 /* tweety.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tweety.png; sourceTree = "<group>"; };
+		E2A3133C1807069800D3C929 /* appIconW.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = appIconW.icns; path = ../appIconW.icns; sourceTree = "<group>"; };
+		E2A3133E18070A4100D3C929 /* updateController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = updateController.h; sourceTree = "<group>"; };
+		E2A3133F18070A4100D3C929 /* updateController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = updateController.m; sourceTree = "<group>"; };
+		E2A3134018070A4100D3C929 /* updateController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = updateController.xib; sourceTree = "<group>"; };
 		E2AFAD681806C83200BB62DD /* PDFiler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PDFiler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2AFAD6B1806C83200BB62DD /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		E2AFAD6E1806C83200BB62DD /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -36,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E20A9C2318084D9B00CEC150 /* Quartz.framework in Frameworks */,
 				E2AFAD6C1806C83200BB62DD /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -43,9 +111,84 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E20A9C1C18084CFC00CEC150 /* about */ = {
+			isa = PBXGroup;
+			children = (
+				E2A3132F1807041900D3C929 /* aboutController.h */,
+				E2A313301807041900D3C929 /* aboutController.m */,
+				E2A313321807042A00D3C929 /* aboutController.xib */,
+			);
+			name = about;
+			sourceTree = "<group>";
+		};
+		E20A9C1D18084D0400CEC150 /* update */ = {
+			isa = PBXGroup;
+			children = (
+				E2A3133E18070A4100D3C929 /* updateController.h */,
+				E2A3133F18070A4100D3C929 /* updateController.m */,
+				E2A3134018070A4100D3C929 /* updateController.xib */,
+			);
+			name = update;
+			sourceTree = "<group>";
+		};
+		E20A9C2118084D4600CEC150 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				E20A9C1E18084D3A00CEC150 /* mainWindowController.h */,
+				E20A9C1F18084D3A00CEC150 /* mainWindowController.m */,
+				E20A9C2818084E2C00CEC150 /* darkView.h */,
+				E20A9C2918084E2C00CEC150 /* darkView.m */,
+				E20A9C2B18084E7600CEC150 /* whiteView.h */,
+				E20A9C2C18084E7600CEC150 /* whiteView.m */,
+				E20A9C1A18084CAE00CEC150 /* mainWindow.xib */,
+			);
+			name = main;
+			sourceTree = "<group>";
+		};
+		E20A9C4218084F8300CEC150 /* license */ = {
+			isa = PBXGroup;
+			children = (
+				E20A9C2E18084F7200CEC150 /* licenseController.h */,
+				E20A9C2F18084F7200CEC150 /* licenseController.m */,
+				E20A9C3018084F7300CEC150 /* licenseController.xib */,
+			);
+			name = license;
+			sourceTree = "<group>";
+		};
+		E20A9C4318084F8B00CEC150 /* log */ = {
+			isa = PBXGroup;
+			children = (
+				E20A9C3118084F7300CEC150 /* logController.h */,
+				E20A9C3218084F7300CEC150 /* logController.m */,
+				E20A9C3318084F7300CEC150 /* logController.xib */,
+			);
+			name = log;
+			sourceTree = "<group>";
+		};
+		E20A9C4418084F9200CEC150 /* prefs */ = {
+			isa = PBXGroup;
+			children = (
+				E20A9C3418084F7300CEC150 /* PrefController.h */,
+				E20A9C3518084F7300CEC150 /* PrefController.m */,
+				E20A9C3618084F7300CEC150 /* PrefController.xib */,
+			);
+			name = prefs;
+			sourceTree = "<group>";
+		};
+		E20A9C4518084F9A00CEC150 /* rules */ = {
+			isa = PBXGroup;
+			children = (
+				E20A9C3718084F7300CEC150 /* rulesController.h */,
+				E20A9C3818084F7300CEC150 /* rulesController.m */,
+				E20A9C3918084F7300CEC150 /* rulesController.xib */,
+			);
+			name = rules;
+			sourceTree = "<group>";
+		};
 		E2AFAD5F1806C83200BB62DD = {
 			isa = PBXGroup;
 			children = (
+				E20A9C2218084D9B00CEC150 /* Quartz.framework */,
 				E2AFAD711806C83200BB62DD /* PDFiler */,
 				E2AFAD6A1806C83200BB62DD /* Frameworks */,
 				E2AFAD691806C83200BB62DD /* Products */,
@@ -82,9 +225,23 @@
 		E2AFAD711806C83200BB62DD /* PDFiler */ = {
 			isa = PBXGroup;
 			children = (
+				E2711A0118070DB700425EFF /* Constants.h */,
 				E2AFAD7D1806C83200BB62DD /* AppDelegate.h */,
 				E2AFAD7E1806C83200BB62DD /* AppDelegate.m */,
+				E27119F618070D9A00425EFF /* pdfdatei.h */,
+				E27119F718070D9A00425EFF /* pdfdatei.m */,
+				E27119F818070D9A00425EFF /* renamerBrain.h */,
+				E27119F918070D9A00425EFF /* renamerBrain.m */,
+				E27119FB18070D9A00425EFF /* targetFolder.h */,
+				E27119FC18070D9A00425EFF /* targetFolder.m */,
 				E2AFAD801806C83200BB62DD /* MainMenu.xib */,
+				E20A9C2118084D4600CEC150 /* main */,
+				E20A9C1C18084CFC00CEC150 /* about */,
+				E20A9C1D18084D0400CEC150 /* update */,
+				E20A9C4218084F8300CEC150 /* license */,
+				E20A9C4318084F8B00CEC150 /* log */,
+				E20A9C4418084F9200CEC150 /* prefs */,
+				E20A9C4518084F9A00CEC150 /* rules */,
 				E2AFAD721806C83200BB62DD /* Supporting Files */,
 			);
 			path = PDFiler;
@@ -93,6 +250,13 @@
 		E2AFAD721806C83200BB62DD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E2A3133C1807069800D3C929 /* appIconW.icns */,
+				E27119FA18070D9A00425EFF /* settings-panel.tif */,
+				E20A9C2418084E1200CEC150 /* Icons_11.png */,
+				E20A9C2518084E1200CEC150 /* Icons_28.png */,
+				E2A313351807065300D3C929 /* bluefond_pdfiler.jpg */,
+				E2A313361807065300D3C929 /* bluefond.jpg */,
+				E2A313371807065300D3C929 /* tweety.png */,
 				E2AFAD731806C83200BB62DD /* PDFiler-Info.plist */,
 				E2AFAD741806C83200BB62DD /* InfoPlist.strings */,
 				E2AFAD771806C83200BB62DD /* main.m */,
@@ -112,6 +276,7 @@
 				E2AFAD641806C83200BB62DD /* Sources */,
 				E2AFAD651806C83200BB62DD /* Frameworks */,
 				E2AFAD661806C83200BB62DD /* Resources */,
+				E21DF12118098187007FEB87 /* Run Script */,
 			);
 			buildRules = (
 			);
@@ -156,10 +321,41 @@
 				E2AFAD761806C83200BB62DD /* InfoPlist.strings in Resources */,
 				E2AFAD7C1806C83200BB62DD /* Credits.rtf in Resources */,
 				E2AFAD821806C83200BB62DD /* MainMenu.xib in Resources */,
+				E2A313331807042A00D3C929 /* aboutController.xib in Resources */,
+				E2A313391807065300D3C929 /* bluefond_pdfiler.jpg in Resources */,
+				E2A3133A1807065300D3C929 /* bluefond.jpg in Resources */,
+				E2A3133B1807065300D3C929 /* tweety.png in Resources */,
+				E2A3133D1807069800D3C929 /* appIconW.icns in Resources */,
+				E2A3134218070A4100D3C929 /* updateController.xib in Resources */,
+				E27119FF18070D9A00425EFF /* settings-panel.tif in Resources */,
+				E20A9C1B18084CAE00CEC150 /* mainWindow.xib in Resources */,
+				E20A9C2618084E1200CEC150 /* Icons_11.png in Resources */,
+				E20A9C2718084E1200CEC150 /* Icons_28.png in Resources */,
+				E20A9C3B18084F7300CEC150 /* licenseController.xib in Resources */,
+				E20A9C3D18084F7300CEC150 /* logController.xib in Resources */,
+				E20A9C3F18084F7300CEC150 /* PrefController.xib in Resources */,
+				E20A9C4118084F7300CEC150 /* rulesController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E21DF12118098187007FEB87 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/bash\nbN=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"$INFOPLIST_FILE\")\nbN=$((0x$bN))\nbN=$(($bN + 1))\nbN=$(printf \"%X\" $bN)\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $bN\" \"$INFOPLIST_FILE\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E2AFAD641806C83200BB62DD /* Sources */ = {
@@ -168,6 +364,18 @@
 			files = (
 				E2AFAD781806C83200BB62DD /* main.m in Sources */,
 				E2AFAD7F1806C83200BB62DD /* AppDelegate.m in Sources */,
+				E2A313311807041900D3C929 /* aboutController.m in Sources */,
+				E2A3134118070A4100D3C929 /* updateController.m in Sources */,
+				E27119FD18070D9A00425EFF /* pdfdatei.m in Sources */,
+				E27119FE18070D9A00425EFF /* renamerBrain.m in Sources */,
+				E2711A0018070D9A00425EFF /* targetFolder.m in Sources */,
+				E20A9C2018084D3A00CEC150 /* mainWindowController.m in Sources */,
+				E20A9C2A18084E2C00CEC150 /* darkView.m in Sources */,
+				E20A9C2D18084E7600CEC150 /* whiteView.m in Sources */,
+				E20A9C3A18084F7300CEC150 /* licenseController.m in Sources */,
+				E20A9C3C18084F7300CEC150 /* logController.m in Sources */,
+				E20A9C3E18084F7300CEC150 /* PrefController.m in Sources */,
+				E20A9C4018084F7300CEC150 /* rulesController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,11 +471,13 @@
 		E2AFAD861806C83200BB62DD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Tom Nakat";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PDFiler/PDFiler-Prefix.pch";
 				INFOPLIST_FILE = "PDFiler/PDFiler-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -275,11 +485,13 @@
 		E2AFAD871806C83200BB62DD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Tom Nakat";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PDFiler/PDFiler-Prefix.pch";
 				INFOPLIST_FILE = "PDFiler/PDFiler-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -303,6 +515,7 @@
 				E2AFAD871806C83200BB62DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
